@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://w2s0nyww7dl0"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_7k1w6"]
+[ext_resource type="Texture2D" uid="uid://crie1jaioms4h" path="res://Sample.png" id="1_88mb3"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_7k1w6")
+
+[node name="Sample" type="Sprite2D" parent="."]
+position = Vector2(459, 257)
+texture = ExtResource("1_88mb3")
+
+[node name="MonMenu" type="Button" parent="."]
+custom_minimum_size = Vector2(150, 40)
+offset_left = 128.0
+offset_top = 50.0
+offset_right = 278.0
+offset_bottom = 90.0
+text = "Create A Monster"
+
+[node name="Gallary" type="Button" parent="."]
+custom_minimum_size = Vector2(150, 40)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -75.0
+offset_top = 50.0
+offset_right = 75.0
+offset_bottom = 90.0
+grow_horizontal = 2
+text = "Gallary"
+
+[node name="Quit" type="Button" parent="."]
+custom_minimum_size = Vector2(150, 40)
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -168.0
+offset_top = 50.0
+offset_right = -126.0
+offset_bottom = 81.0
+grow_horizontal = 0
+text = "Quit"
+
+[connection signal="pressed" from="MonMenu" to="." method="_on_mon_menu_pressed"]
+[connection signal="pressed" from="Gallary" to="." method="_on_gallary_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
