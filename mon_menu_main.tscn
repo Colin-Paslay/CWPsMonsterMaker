@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=3 uid="uid://qxaqqv36k7jy"]
+[gd_scene load_steps=178 format=3 uid="uid://qxaqqv36k7jy"]
 
 [ext_resource type="Script" path="res://mon_menu_main.gd" id="1_ryxmi"]
 [ext_resource type="Texture2D" uid="uid://clbju5d71fjtq" path="res://PNG/Default/body_blueA.png" id="2_vig10"]
@@ -85,6 +85,98 @@
 [ext_resource type="Texture2D" uid="uid://bfktm53fqed0y" path="res://PNG/Default/arm_darkC.png" id="83_u0vxi"]
 [ext_resource type="Texture2D" uid="uid://dhvyh8r6xgogo" path="res://PNG/Default/arm_darkD.png" id="84_tn6rr"]
 [ext_resource type="Texture2D" uid="uid://5jn60ip7mhdo" path="res://PNG/Default/arm_darkE.png" id="85_1aw1v"]
+[ext_resource type="Texture2D" uid="uid://cejvb0rocta5c" path="res://PNG/Default/arm_greenA.png" id="86_w8h4x"]
+[ext_resource type="Texture2D" uid="uid://dkq4cbttlh8xv" path="res://PNG/Default/arm_greenB.png" id="87_3jpnw"]
+[ext_resource type="Texture2D" uid="uid://csj135mtk6d7m" path="res://PNG/Default/arm_greenC.png" id="88_1b3ev"]
+[ext_resource type="Texture2D" uid="uid://62y4he74s6w1" path="res://PNG/Default/arm_greenD.png" id="89_vq3ng"]
+[ext_resource type="Texture2D" uid="uid://ddyhvehfjv61l" path="res://PNG/Default/arm_greenE.png" id="90_b7eqo"]
+[ext_resource type="Texture2D" uid="uid://c84goseee3684" path="res://PNG/Default/arm_redA.png" id="91_ab76p"]
+[ext_resource type="Texture2D" uid="uid://cygsdrsrf7tsn" path="res://PNG/Default/arm_redB.png" id="92_ncm48"]
+[ext_resource type="Texture2D" uid="uid://cyjrrjn7cqne4" path="res://PNG/Default/arm_redC.png" id="93_sekew"]
+[ext_resource type="Texture2D" uid="uid://dxnf8sjcj63t2" path="res://PNG/Default/arm_redD.png" id="94_kapca"]
+[ext_resource type="Texture2D" uid="uid://b3gbg1hum0twk" path="res://PNG/Default/arm_redE.png" id="95_pg0mr"]
+[ext_resource type="Texture2D" uid="uid://bd5n15p0i10it" path="res://PNG/Default/arm_whiteA.png" id="96_afp22"]
+[ext_resource type="Texture2D" uid="uid://cjj1mv7ec26bo" path="res://PNG/Default/arm_whiteB.png" id="97_1hmvo"]
+[ext_resource type="Texture2D" uid="uid://dw11qca0pf8eq" path="res://PNG/Default/arm_whiteC.png" id="98_qoll3"]
+[ext_resource type="Texture2D" uid="uid://lesqcdw10cqi" path="res://PNG/Default/arm_whiteD.png" id="99_7k7mo"]
+[ext_resource type="Texture2D" uid="uid://b3dd6mwa2cvks" path="res://PNG/Default/arm_whiteE.png" id="100_sdue2"]
+[ext_resource type="Texture2D" uid="uid://c6k5qeff4lcch" path="res://PNG/Default/arm_yellowA.png" id="101_abjj1"]
+[ext_resource type="Texture2D" uid="uid://b2fu0drioqasm" path="res://PNG/Default/arm_yellowB.png" id="102_2x7hn"]
+[ext_resource type="Texture2D" uid="uid://cbm27nt4te50c" path="res://PNG/Default/arm_yellowC.png" id="103_3bgar"]
+[ext_resource type="Texture2D" uid="uid://bymw5unte40qh" path="res://PNG/Default/arm_yellowD.png" id="104_x5ykm"]
+[ext_resource type="Texture2D" uid="uid://dcu8cqd6r57vn" path="res://PNG/Default/arm_yellowE.png" id="105_yl1sf"]
+[ext_resource type="Texture2D" uid="uid://dl81h3xmawju6" path="res://PNG/Default/leg_blueA.png" id="106_5wwtw"]
+[ext_resource type="Texture2D" uid="uid://dvs1tuefeaclx" path="res://PNG/Default/leg_blueB.png" id="107_ye6b3"]
+[ext_resource type="Texture2D" uid="uid://bwdphhwqii58e" path="res://PNG/Default/leg_blueC.png" id="108_mbbn8"]
+[ext_resource type="Texture2D" uid="uid://bsam5jeaj4b74" path="res://PNG/Default/leg_blueD.png" id="109_jn7mi"]
+[ext_resource type="Texture2D" uid="uid://b8beifw14tbmh" path="res://PNG/Default/leg_blueE.png" id="110_eu5ro"]
+[ext_resource type="Texture2D" uid="uid://b6rn6wfmj8kla" path="res://PNG/Default/leg_darkA.png" id="111_ilgth"]
+[ext_resource type="Texture2D" uid="uid://c3kqqu3ouy8hd" path="res://PNG/Default/leg_darkB.png" id="112_dh6bn"]
+[ext_resource type="Texture2D" uid="uid://b2b8td7l4f124" path="res://PNG/Default/leg_darkC.png" id="113_um8ou"]
+[ext_resource type="Texture2D" uid="uid://dbocnr6afft1y" path="res://PNG/Default/leg_darkD.png" id="114_mmbj7"]
+[ext_resource type="Texture2D" uid="uid://blxqfa4i1oyiq" path="res://PNG/Default/leg_darkE.png" id="115_lfcgq"]
+[ext_resource type="Texture2D" uid="uid://dvb8kk07s7rp" path="res://PNG/Default/leg_greenA.png" id="116_vqk25"]
+[ext_resource type="Texture2D" uid="uid://dfyly6tge4qd7" path="res://PNG/Default/leg_greenB.png" id="117_kxynq"]
+[ext_resource type="Texture2D" uid="uid://d0q6adhrqkjsg" path="res://PNG/Default/leg_greenC.png" id="118_pv2he"]
+[ext_resource type="Texture2D" uid="uid://csffu7ifor8oq" path="res://PNG/Default/leg_greenD.png" id="119_o88iv"]
+[ext_resource type="Texture2D" uid="uid://beet5mf0v2eun" path="res://PNG/Default/leg_greenE.png" id="120_qdxw8"]
+[ext_resource type="Texture2D" uid="uid://cnv5jq2hyivln" path="res://PNG/Default/leg_redA.png" id="121_pf47r"]
+[ext_resource type="Texture2D" uid="uid://c3iixha2jbjxp" path="res://PNG/Default/leg_redB.png" id="122_k6ncs"]
+[ext_resource type="Texture2D" uid="uid://wngkuscq4gft" path="res://PNG/Default/leg_redC.png" id="123_xijrr"]
+[ext_resource type="Texture2D" uid="uid://crt12036l1snj" path="res://PNG/Default/leg_redD.png" id="124_ji0ed"]
+[ext_resource type="Texture2D" uid="uid://5jqmit8igaop" path="res://PNG/Default/leg_redE.png" id="125_b50sf"]
+[ext_resource type="Texture2D" uid="uid://d0hkdwf01mxvx" path="res://PNG/Default/leg_whiteA.png" id="126_221nf"]
+[ext_resource type="Texture2D" uid="uid://d3xs7m73ibhxg" path="res://PNG/Default/leg_whiteB.png" id="127_5o1s5"]
+[ext_resource type="Texture2D" uid="uid://b8u1fvqt2icg5" path="res://PNG/Default/leg_whiteC.png" id="128_yllmt"]
+[ext_resource type="Texture2D" uid="uid://d4lqpl0x14lpn" path="res://PNG/Default/leg_whiteD.png" id="129_rpm86"]
+[ext_resource type="Texture2D" uid="uid://clg4gbaurk0nj" path="res://PNG/Default/leg_whiteE.png" id="130_mlltv"]
+[ext_resource type="Texture2D" uid="uid://bbd05nfvyfoea" path="res://PNG/Default/leg_yellowA.png" id="131_8cf4u"]
+[ext_resource type="Texture2D" uid="uid://issgdmcwy3mo" path="res://PNG/Default/leg_yellowB.png" id="132_141lm"]
+[ext_resource type="Texture2D" uid="uid://dgfxtw4fn1jyd" path="res://PNG/Default/leg_yellowC.png" id="133_igpeu"]
+[ext_resource type="Texture2D" uid="uid://0ltcfsy80oou" path="res://PNG/Default/leg_yellowD.png" id="134_hijdj"]
+[ext_resource type="Texture2D" uid="uid://l44xd2ulcp63" path="res://PNG/Default/leg_yellowE.png" id="135_6hg4r"]
+[ext_resource type="Texture2D" uid="uid://g3il7cdc14m1" path="res://PNG/Default/detail_blue_antenna_large.png" id="136_g13fw"]
+[ext_resource type="Texture2D" uid="uid://362xkftq76c1" path="res://PNG/Default/detail_blue_antenna_small.png" id="137_12hso"]
+[ext_resource type="Texture2D" uid="uid://dck57ydw34t6u" path="res://PNG/Default/detail_blue_ear.png" id="138_pvccp"]
+[ext_resource type="Texture2D" uid="uid://b5utgv3i8f820" path="res://PNG/Default/detail_blue_ear_round.png" id="139_envj0"]
+[ext_resource type="Texture2D" uid="uid://dm7cfaa7i4mn4" path="res://PNG/Default/detail_blue_eye.png" id="140_ccamm"]
+[ext_resource type="Texture2D" uid="uid://cgjb0ec6jajgt" path="res://PNG/Default/detail_blue_horn_large.png" id="141_y8llj"]
+[ext_resource type="Texture2D" uid="uid://cg2fg6s4euybk" path="res://PNG/Default/detail_blue_horn_small.png" id="142_y0sq3"]
+[ext_resource type="Texture2D" uid="uid://behxvnoyskkks" path="res://PNG/Default/detail_dark_antenna_large.png" id="143_rbdjk"]
+[ext_resource type="Texture2D" uid="uid://b87bdw4waixju" path="res://PNG/Default/detail_dark_antenna_small.png" id="144_3h8tf"]
+[ext_resource type="Texture2D" uid="uid://og6qff5bm170" path="res://PNG/Default/detail_dark_ear.png" id="145_4p6c0"]
+[ext_resource type="Texture2D" uid="uid://d28e64p6a6wfh" path="res://PNG/Default/detail_dark_ear_round.png" id="146_lbr1c"]
+[ext_resource type="Texture2D" uid="uid://b3ftmhndl252f" path="res://PNG/Default/detail_dark_eye.png" id="147_3638y"]
+[ext_resource type="Texture2D" uid="uid://cjbuywm232kcp" path="res://PNG/Default/detail_dark_horn_large.png" id="148_4fifj"]
+[ext_resource type="Texture2D" uid="uid://dxbhfxfdykoj7" path="res://PNG/Default/detail_dark_horn_small.png" id="149_bop7e"]
+[ext_resource type="Texture2D" uid="uid://cqohr8qd2e2s0" path="res://PNG/Default/detail_green_antenna_large.png" id="150_scqpn"]
+[ext_resource type="Texture2D" uid="uid://dahsdsdk6ek0c" path="res://PNG/Default/detail_green_antenna_small.png" id="151_l6uqd"]
+[ext_resource type="Texture2D" uid="uid://xwmev0iiytk8" path="res://PNG/Default/detail_green_ear.png" id="152_k7rd2"]
+[ext_resource type="Texture2D" uid="uid://d3kc7232yqrs" path="res://PNG/Default/detail_green_ear_round.png" id="153_5bmqy"]
+[ext_resource type="Texture2D" uid="uid://bsuyg01tmsjnu" path="res://PNG/Default/detail_green_eye.png" id="154_760yw"]
+[ext_resource type="Texture2D" uid="uid://byh1mvo2kv4qg" path="res://PNG/Default/detail_green_horn_large.png" id="155_xhhlg"]
+[ext_resource type="Texture2D" uid="uid://bda820oj5esc7" path="res://PNG/Default/detail_green_horn_small.png" id="156_ihssa"]
+[ext_resource type="Texture2D" uid="uid://dxuspb68lyunc" path="res://PNG/Default/detail_red_antenna_large.png" id="157_gsd8h"]
+[ext_resource type="Texture2D" uid="uid://b0ykuamksivxv" path="res://PNG/Default/detail_red_antenna_small.png" id="158_5od0w"]
+[ext_resource type="Texture2D" uid="uid://bvpshgcgci71k" path="res://PNG/Default/detail_red_ear.png" id="159_lw33v"]
+[ext_resource type="Texture2D" uid="uid://b062vixoe8ivh" path="res://PNG/Default/detail_red_ear_round.png" id="160_oqee5"]
+[ext_resource type="Texture2D" uid="uid://cy20uwb4v76g8" path="res://PNG/Default/detail_red_eye.png" id="161_gto05"]
+[ext_resource type="Texture2D" uid="uid://dhqwik7ssoa1u" path="res://PNG/Default/detail_red_horn_large.png" id="162_myvwf"]
+[ext_resource type="Texture2D" uid="uid://t7o865i3f7kv" path="res://PNG/Default/detail_red_horn_small.png" id="163_3ku3n"]
+[ext_resource type="Texture2D" uid="uid://dsm6x4fb5oq0r" path="res://PNG/Default/detail_white_antenna_large.png" id="164_cy6wh"]
+[ext_resource type="Texture2D" uid="uid://dg04nqtu7xarf" path="res://PNG/Default/detail_white_antenna_small.png" id="165_4hycc"]
+[ext_resource type="Texture2D" uid="uid://drabu3xd6rbv1" path="res://PNG/Default/detail_white_ear.png" id="166_3uag7"]
+[ext_resource type="Texture2D" uid="uid://orruqbb8ypnh" path="res://PNG/Default/detail_white_ear_round.png" id="167_mqk1v"]
+[ext_resource type="Texture2D" uid="uid://bu704oetabtbn" path="res://PNG/Default/detail_white_eye.png" id="168_k0i4a"]
+[ext_resource type="Texture2D" uid="uid://8nsyyw2wng1x" path="res://PNG/Default/detail_white_horn_large.png" id="169_rm4dm"]
+[ext_resource type="Texture2D" uid="uid://c2l3d17r5er6q" path="res://PNG/Default/detail_white_horn_small.png" id="170_yudf4"]
+[ext_resource type="Texture2D" uid="uid://dv6amlt3fgi4q" path="res://PNG/Default/detail_yellow_antenna_large.png" id="171_aofns"]
+[ext_resource type="Texture2D" uid="uid://bq8hg50lwqk7e" path="res://PNG/Default/detail_yellow_antenna_small.png" id="172_kqqbj"]
+[ext_resource type="Texture2D" uid="uid://60dpu3pywy3" path="res://PNG/Default/detail_yellow_ear.png" id="173_xpoup"]
+[ext_resource type="Texture2D" uid="uid://bfo6r4wkhy52j" path="res://PNG/Default/detail_yellow_ear_round.png" id="174_cmajx"]
+[ext_resource type="Texture2D" uid="uid://bskkv20xws2s" path="res://PNG/Default/detail_yellow_eye.png" id="175_w8n0n"]
+[ext_resource type="Texture2D" uid="uid://daty3tp5e2ain" path="res://PNG/Default/detail_yellow_horn_large.png" id="176_cgfwe"]
+[ext_resource type="Texture2D" uid="uid://bxosw65822k4b" path="res://PNG/Default/detail_yellow_horn_small.png" id="177_mw2cx"]
 
 [node name="MonMenu-Main" type="Node2D"]
 script = ExtResource("1_ryxmi")
@@ -350,7 +442,7 @@ offset_right = 150.0
 offset_bottom = 323.0
 text = "Load From Gallary"
 
-[node name="BB-Con" type="GridContainer" parent="."]
+[node name="BB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -398,7 +490,7 @@ icon = ExtResource("7_v3m57")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BrB-Con" type="GridContainer" parent="."]
+[node name="BrB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -446,7 +538,7 @@ icon = ExtResource("13_08ih8")
 icon_alignment = 1
 expand_icon = true
 
-[node name="GB-Con" type="GridContainer" parent="."]
+[node name="GB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -494,7 +586,7 @@ icon = ExtResource("19_j6j11")
 icon_alignment = 1
 expand_icon = true
 
-[node name="RB-Con" type="GridContainer" parent="."]
+[node name="RB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -638,43 +730,924 @@ icon = ExtResource("25_jc4no")
 icon_alignment = 1
 expand_icon = true
 
-[node name="N-Con" type="GridContainer" parent="."]
+[node name="BA-Con" type="GridContainer" parent="."]
+visible = false
+custom_minimum_size = Vector2(100, 0)
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 365.0
+offset_bottom = 584.0
+columns = 2
+
+[node name="Button" type="Button" parent="BA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("76_5f6t2")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="BA-Con"]
+layout_mode = 2
+icon = ExtResource("77_up34d")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="BA-Con"]
+layout_mode = 2
+icon = ExtResource("78_e8qwj")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="BA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("79_kf8di")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="BA-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("80_heuaf")
+icon_alignment = 1
+expand_icon = true
+
+[node name="BrA-Con" type="GridContainer" parent="."]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
-offset_right = 217.0
-offset_bottom = 270.0
+offset_right = 365.0
+offset_bottom = 584.0
+columns = 2
 
-[node name="Button" type="Button" parent="N-Con"]
+[node name="Button" type="Button" parent="BrA-Con"]
+layout_mode = 2
+icon = ExtResource("81_jr42u")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="BrA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
-icon = ExtResource("38_3vbvf")
+icon = ExtResource("82_bi20e")
 icon_alignment = 1
+expand_icon = true
 
-[node name="Button2" type="Button" parent="N-Con"]
+[node name="Button3" type="Button" parent="BrA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("83_u0vxi")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="BrA-Con"]
+layout_mode = 2
+icon = ExtResource("84_tn6rr")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="BrA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
-icon = ExtResource("39_u0rjd")
+icon = ExtResource("85_1aw1v")
 icon_alignment = 1
+expand_icon = true
 
-[node name="Button3" type="Button" parent="N-Con"]
+[node name="GA-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 338.0
+columns = 2
+
+[node name="Button" type="Button" parent="GA-Con"]
+layout_mode = 2
+icon = ExtResource("86_w8h4x")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
-icon = ExtResource("40_w76wr")
+icon = ExtResource("87_3jpnw")
 icon_alignment = 1
+expand_icon = true
 
-[node name="Button4" type="Button" parent="N-Con"]
+[node name="Button3" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
-icon = ExtResource("41_krj4r")
+icon = ExtResource("88_1b3ev")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="GA-Con"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+icon = ExtResource("89_vq3ng")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="GA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("90_b7eqo")
+icon_alignment = 1
+expand_icon = true
+
+[node name="RA-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 338.0
+columns = 2
+
+[node name="Button" type="Button" parent="RA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("91_ab76p")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="RA-Con"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+icon = ExtResource("92_ncm48")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="RA-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("93_sekew")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="RA-Con"]
+layout_mode = 2
+icon = ExtResource("94_kapca")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="RA-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("95_pg0mr")
+icon_alignment = 1
+expand_icon = true
+
+[node name="WA-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 365.0
+offset_bottom = 584.0
+columns = 2
+
+[node name="Button" type="Button" parent="WA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("96_afp22")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="WA-Con"]
+layout_mode = 2
+icon = ExtResource("97_1hmvo")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="WA-Con"]
+layout_mode = 2
+icon = ExtResource("98_qoll3")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="WA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("99_7k7mo")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="WA-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("100_sdue2")
+icon_alignment = 1
+expand_icon = true
+
+[node name="YA-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 365.0
+offset_bottom = 584.0
+columns = 2
+
+[node name="Button" type="Button" parent="YA-Con"]
+layout_mode = 2
+icon = ExtResource("101_abjj1")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="YA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("102_2x7hn")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="YA-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("103_3bgar")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="YA-Con"]
+layout_mode = 2
+icon = ExtResource("104_x5ykm")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="YA-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("105_yl1sf")
+icon_alignment = 1
+expand_icon = true
+
+[node name="BL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="BL-Con"]
+layout_mode = 2
+icon = ExtResource("106_5wwtw")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="BL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("107_ye6b3")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="BL-Con"]
+layout_mode = 2
+icon = ExtResource("108_mbbn8")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="BL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("109_jn7mi")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="BL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("110_eu5ro")
+icon_alignment = 1
+expand_icon = true
+
+[node name="BrL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="BrL-Con"]
+layout_mode = 2
+icon = ExtResource("111_ilgth")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="BrL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("112_dh6bn")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="BrL-Con"]
+layout_mode = 2
+icon = ExtResource("113_um8ou")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="BrL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("114_mmbj7")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="BrL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("115_lfcgq")
+icon_alignment = 1
+expand_icon = true
+
+[node name="GL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="GL-Con"]
+layout_mode = 2
+icon = ExtResource("116_vqk25")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="GL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("117_kxynq")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="GL-Con"]
+layout_mode = 2
+icon = ExtResource("118_pv2he")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="GL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("119_o88iv")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="GL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("120_qdxw8")
+icon_alignment = 1
+expand_icon = true
+
+[node name="RL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="RL-Con"]
+layout_mode = 2
+icon = ExtResource("121_pf47r")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="RL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("122_k6ncs")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="RL-Con"]
+layout_mode = 2
+icon = ExtResource("123_xijrr")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="RL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("124_ji0ed")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="RL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("125_b50sf")
+icon_alignment = 1
+expand_icon = true
+
+[node name="WL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="WL-Con"]
+layout_mode = 2
+icon = ExtResource("126_221nf")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="WL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("127_5o1s5")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="WL-Con"]
+layout_mode = 2
+icon = ExtResource("128_yllmt")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="WL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("129_rpm86")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="WL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("130_mlltv")
+icon_alignment = 1
+expand_icon = true
+
+[node name="YL-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 462.0
+columns = 2
+
+[node name="Button" type="Button" parent="YL-Con"]
+layout_mode = 2
+icon = ExtResource("131_8cf4u")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="YL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("132_141lm")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="YL-Con"]
+layout_mode = 2
+icon = ExtResource("133_igpeu")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="YL-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("134_hijdj")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="YL-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("135_6hg4r")
+icon_alignment = 1
+expand_icon = true
+
+[node name="EyeB-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 255.0
+offset_bottom = 338.0
+
+[node name="Button" type="Button" parent="EyeB-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("46_n6wpk")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="EyeB-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("47_afgma")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="EyeB-Con"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+icon = ExtResource("48_mfneq")
+icon_alignment = 1
+
+[node name="Eye-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="Eye-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("42_p8344")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("43_7jfd5")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("44_8c7n7")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("45_76ecy")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="Eye-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("46_giby2")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("47_y67r7")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("48_gwncf")
+icon_alignment = 1
+
+[node name="Button8" type="Button" parent="Eye-Con"]
+layout_mode = 2
+icon = ExtResource("49_4pdfp")
+icon_alignment = 1
+
+[node name="Button9" type="Button" parent="Eye-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("50_8kjmu")
+icon_alignment = 1
+
+[node name="Eye2-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 234.0
+columns = 2
+
+[node name="Button" type="Button" parent="Eye2-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("51_3xsqh")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="Eye2-Con"]
+layout_mode = 2
+icon = ExtResource("52_8ie5m")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="Eye2-Con"]
+layout_mode = 2
+icon = ExtResource("53_0oaxu")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="Eye2-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("54_rheuc")
+icon_alignment = 1
+
+[node name="EyeC-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 359.0
+offset_bottom = 234.0
+columns = 2
+
+[node name="Button" type="Button" parent="EyeC-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("42_d02fg")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="EyeC-Con"]
+layout_mode = 2
+icon = ExtResource("43_hh6wb")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="EyeC-Con"]
+layout_mode = 2
+icon = ExtResource("44_te4d4")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="EyeC-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("45_i5sla")
+icon_alignment = 1
+
+[node name="BE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="BE-Con"]
+layout_mode = 2
+icon = ExtResource("136_g13fw")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="BE-Con"]
+layout_mode = 2
+icon = ExtResource("137_12hso")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="BE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("138_pvccp")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="BE-Con"]
+layout_mode = 2
+icon = ExtResource("139_envj0")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="BE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("140_ccamm")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="BE-Con"]
+layout_mode = 2
+icon = ExtResource("141_y8llj")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="BE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("142_y0sq3")
+icon_alignment = 1
+
+[node name="BrE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="BrE-Con"]
+layout_mode = 2
+icon = ExtResource("143_rbdjk")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="BrE-Con"]
+layout_mode = 2
+icon = ExtResource("144_3h8tf")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="BrE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("145_4p6c0")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="BrE-Con"]
+layout_mode = 2
+icon = ExtResource("146_lbr1c")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="BrE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("147_3638y")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="BrE-Con"]
+layout_mode = 2
+icon = ExtResource("148_4fifj")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="BrE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("149_bop7e")
+icon_alignment = 1
+
+[node name="GE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="GE-Con"]
+layout_mode = 2
+icon = ExtResource("150_scqpn")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="GE-Con"]
+layout_mode = 2
+icon = ExtResource("151_l6uqd")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="GE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("152_k7rd2")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="GE-Con"]
+layout_mode = 2
+icon = ExtResource("153_5bmqy")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="GE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("154_760yw")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="GE-Con"]
+layout_mode = 2
+icon = ExtResource("155_xhhlg")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="GE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("156_ihssa")
+icon_alignment = 1
+
+[node name="RE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="RE-Con"]
+layout_mode = 2
+icon = ExtResource("157_gsd8h")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="RE-Con"]
+layout_mode = 2
+icon = ExtResource("158_5od0w")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="RE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("159_lw33v")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="RE-Con"]
+layout_mode = 2
+icon = ExtResource("160_oqee5")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="RE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("161_gto05")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="RE-Con"]
+layout_mode = 2
+icon = ExtResource("162_myvwf")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="RE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("163_3ku3n")
+icon_alignment = 1
+
+[node name="WE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="WE-Con"]
+layout_mode = 2
+icon = ExtResource("164_cy6wh")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="WE-Con"]
+layout_mode = 2
+icon = ExtResource("165_4hycc")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="WE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("166_3uag7")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="WE-Con"]
+layout_mode = 2
+icon = ExtResource("167_mqk1v")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="WE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("168_k0i4a")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="WE-Con"]
+layout_mode = 2
+icon = ExtResource("169_rm4dm")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="WE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("170_yudf4")
+icon_alignment = 1
+
+[node name="YE-Con" type="GridContainer" parent="."]
+visible = false
+offset_left = 155.0
+offset_top = 30.0
+offset_right = 463.0
+offset_bottom = 338.0
+columns = 3
+
+[node name="Button" type="Button" parent="YE-Con"]
+layout_mode = 2
+icon = ExtResource("171_aofns")
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="YE-Con"]
+layout_mode = 2
+icon = ExtResource("172_kqqbj")
+icon_alignment = 1
+
+[node name="Button3" type="Button" parent="YE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("173_xpoup")
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="YE-Con"]
+layout_mode = 2
+icon = ExtResource("174_cmajx")
+icon_alignment = 1
+
+[node name="Button5" type="Button" parent="YE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("175_w8n0n")
+icon_alignment = 1
+
+[node name="Button6" type="Button" parent="YE-Con"]
+layout_mode = 2
+icon = ExtResource("176_cgfwe")
+icon_alignment = 1
+
+[node name="Button7" type="Button" parent="YE-Con"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+icon = ExtResource("177_mw2cx")
 icon_alignment = 1
 
 [node name="M-Con" type="GridContainer" parent="."]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
-offset_right = 195.0
-offset_bottom = 70.0
+offset_right = 463.0
+offset_bottom = 338.0
 columns = 3
 
 [node name="Button" type="Button" parent="M-Con"]
@@ -730,8 +1703,8 @@ icon_alignment = 1
 visible = false
 offset_left = 155.0
 offset_top = 30.0
-offset_right = 243.0
-offset_bottom = 224.0
+offset_right = 359.0
+offset_bottom = 338.0
 columns = 2
 
 [node name="Button" type="Button" parent="M2-Con"]
@@ -763,582 +1736,68 @@ layout_mode = 2
 icon = ExtResource("55_0bji7")
 icon_alignment = 1
 
-[node name="Eye-Con" type="GridContainer" parent="."]
+[node name="N-Con" type="GridContainer" parent="."]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
-offset_right = 379.0
-offset_bottom = 258.0
-columns = 3
-
-[node name="Button" type="Button" parent="Eye-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("42_p8344")
-icon_alignment = 1
-
-[node name="Button2" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("43_7jfd5")
-icon_alignment = 1
-
-[node name="Button3" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("44_8c7n7")
-icon_alignment = 1
-
-[node name="Button4" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("45_76ecy")
-icon_alignment = 1
-
-[node name="Button5" type="Button" parent="Eye-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("46_giby2")
-icon_alignment = 1
-
-[node name="Button6" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("47_y67r7")
-icon_alignment = 1
-
-[node name="Button7" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("48_gwncf")
-icon_alignment = 1
-
-[node name="Button8" type="Button" parent="Eye-Con"]
-layout_mode = 2
-icon = ExtResource("49_4pdfp")
-icon_alignment = 1
-
-[node name="Button9" type="Button" parent="Eye-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("50_8kjmu")
-icon_alignment = 1
-
-[node name="Eye2-Con" type="GridContainer" parent="."]
-visible = false
-offset_left = 155.0
-offset_top = 30.0
-offset_right = 303.0
-offset_bottom = 188.0
+offset_right = 217.0
+offset_bottom = 270.0
 columns = 2
 
-[node name="Button" type="Button" parent="Eye2-Con"]
+[node name="Button" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
-icon = ExtResource("51_3xsqh")
+icon = ExtResource("38_3vbvf")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="Eye2-Con"]
-layout_mode = 2
-icon = ExtResource("52_8ie5m")
-icon_alignment = 1
-
-[node name="Button3" type="Button" parent="Eye2-Con"]
-layout_mode = 2
-icon = ExtResource("53_0oaxu")
-icon_alignment = 1
-
-[node name="Button4" type="Button" parent="Eye2-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("54_rheuc")
-icon_alignment = 1
-
-[node name="EyeC-Con" type="GridContainer" parent="."]
-visible = false
-offset_left = 155.0
-offset_top = 30.0
-offset_right = 289.0
-offset_bottom = 151.0
-columns = 2
-
-[node name="Button" type="Button" parent="EyeC-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("42_d02fg")
-icon_alignment = 1
-
-[node name="Button2" type="Button" parent="EyeC-Con"]
-layout_mode = 2
-icon = ExtResource("43_hh6wb")
-icon_alignment = 1
-
-[node name="Button3" type="Button" parent="EyeC-Con"]
-layout_mode = 2
-icon = ExtResource("44_te4d4")
-icon_alignment = 1
-
-[node name="Button4" type="Button" parent="EyeC-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("45_i5sla")
-icon_alignment = 1
-
-[node name="EyeB-Con" type="GridContainer" parent="."]
-visible = false
-offset_left = 155.0
-offset_top = 30.0
-offset_right = 255.0
-offset_bottom = 338.0
-
-[node name="Button" type="Button" parent="EyeB-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("46_n6wpk")
-icon_alignment = 1
-
-[node name="Button2" type="Button" parent="EyeB-Con"]
+[node name="Button2" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
-icon = ExtResource("47_afgma")
+icon = ExtResource("39_u0rjd")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="EyeB-Con"]
+[node name="Button3" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
-icon = ExtResource("48_mfneq")
+icon = ExtResource("40_w76wr")
 icon_alignment = 1
 
-[node name="BA-Con" type="GridContainer" parent="."]
-visible = false
-custom_minimum_size = Vector2(100, 0)
-offset_left = 155.0
-offset_top = 30.0
-offset_right = 365.0
-offset_bottom = 584.0
-columns = 2
-
-[node name="Button" type="Button" parent="BA-Con"]
+[node name="Button4" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
-icon = ExtResource("76_5f6t2")
+icon = ExtResource("41_krj4r")
 icon_alignment = 1
-expand_icon = true
-
-[node name="Button2" type="Button" parent="BA-Con"]
-layout_mode = 2
-icon = ExtResource("77_up34d")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button3" type="Button" parent="BA-Con"]
-layout_mode = 2
-icon = ExtResource("78_e8qwj")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button4" type="Button" parent="BA-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("79_kf8di")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button5" type="Button" parent="BA-Con"]
-custom_minimum_size = Vector2(0, 100)
-layout_mode = 2
-icon = ExtResource("80_heuaf")
-icon_alignment = 1
-expand_icon = true
-
-[node name="BrA-Con" type="GridContainer" parent="."]
-offset_left = 155.0
-offset_top = 30.0
-offset_right = 365.0
-offset_bottom = 584.0
-columns = 2
-
-[node name="Button" type="Button" parent="BrA-Con"]
-layout_mode = 2
-icon = ExtResource("81_jr42u")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button2" type="Button" parent="BrA-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("82_bi20e")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button3" type="Button" parent="BrA-Con"]
-custom_minimum_size = Vector2(100, 100)
-layout_mode = 2
-icon = ExtResource("83_u0vxi")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button4" type="Button" parent="BrA-Con"]
-layout_mode = 2
-icon = ExtResource("84_tn6rr")
-icon_alignment = 1
-expand_icon = true
-
-[node name="Button5" type="Button" parent="BrA-Con"]
-layout_mode = 2
-icon = ExtResource("85_1aw1v")
-
-[node name="GA-Con" type="GridContainer" parent="."]
-visible = false
-offset_top = 60.0
-offset_right = 8.0
-offset_bottom = 116.0
-
-[node name="Button" type="Button" parent="GA-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="GA-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="GA-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="GA-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="GA-Con"]
-layout_mode = 2
-
-[node name="RA-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="RA-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="RA-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="RA-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="RA-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="RA-Con"]
-layout_mode = 2
-
-[node name="WA-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="WA-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="WA-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="WA-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="WA-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="WA-Con"]
-layout_mode = 2
-
-[node name="YA-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="YA-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="YA-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="YA-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="YA-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="YA-Con"]
-layout_mode = 2
-
-[node name="BL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="BL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="BL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="BL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="BL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="BL-Con"]
-layout_mode = 2
-
-[node name="BrL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="BrL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="BrL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="BrL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="BrL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="BrL-Con"]
-layout_mode = 2
-
-[node name="GL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="GL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="GL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="GL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="GL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="GL-Con"]
-layout_mode = 2
-
-[node name="RL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="RL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="RL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="RL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="RL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="RL-Con"]
-layout_mode = 2
-
-[node name="WL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="WL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="WL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="WL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="WL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="WL-Con"]
-layout_mode = 2
-
-[node name="YL-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="YL-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="YL-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="YL-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="YL-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="YL-Con"]
-layout_mode = 2
-
-[node name="BE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="BE-Con"]
-layout_mode = 2
-
-[node name="BrE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="BrE-Con"]
-layout_mode = 2
-
-[node name="GE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="GE-Con"]
-layout_mode = 2
-
-[node name="RE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="RE-Con"]
-layout_mode = 2
-
-[node name="WE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="WE-Con"]
-layout_mode = 2
-
-[node name="YE-Con" type="GridContainer" parent="."]
-visible = false
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Button" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button2" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button3" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button4" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button5" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button6" type="Button" parent="YE-Con"]
-layout_mode = 2
-
-[node name="Button7" type="Button" parent="YE-Con"]
-layout_mode = 2
 
 [connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Blue Bodies" to="." method="_on_blue_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Brown Bodies" to="." method="_on_brown_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Green Bodies" to="." method="_on_green_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Red Bodies" to="." method="_on_red_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/White Bodies" to="." method="_on_white_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Yellow Bodies" to="." method="_on_yellow_bodies_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/Blue Arm" to="." method="_on_blue_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/Brown Arm" to="." method="_on_brown_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/Green Arm" to="." method="_on_green_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/Red Arm" to="." method="_on_red_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/White Arm" to="." method="_on_white_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Arm-Menu/ScrollContainer/VBoxContainer/Yellow Arm" to="." method="_on_yellow_arm_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/Blue Leg" to="." method="_on_blue_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/Brown Leg" to="." method="_on_brown_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/Green Leg" to="." method="_on_green_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/Red Leg" to="." method="_on_red_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/White Leg" to="." method="_on_white_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Leg-Menu/ScrollContainer/VBoxContainer/Yellow Leg" to="." method="_on_yellow_leg_pressed"]
+[connection signal="pressed" from="TabContainer/Eye-Menu/ScrollContainer/VBoxContainer/Eyebrows" to="." method="_on_eyebrows_pressed"]
+[connection signal="pressed" from="TabContainer/Eye-Menu/ScrollContainer/VBoxContainer/Eyes" to="." method="_on_eyes_pressed"]
+[connection signal="pressed" from="TabContainer/Eye-Menu/ScrollContainer/VBoxContainer/Eyes2" to="." method="_on_eyes_2_pressed"]
+[connection signal="pressed" from="TabContainer/Eye-Menu/ScrollContainer/VBoxContainer/Eyes-Closed" to="." method="_on_eyes_closed_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/Blue Ears" to="." method="_on_blue_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/Brown Ears" to="." method="_on_brown_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/Green Ears" to="." method="_on_green_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/Red Ears" to="." method="_on_red_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/White Ears" to="." method="_on_white_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Ear-Menu/ScrollContainer/VBoxContainer/Yellow Ears" to="." method="_on_yellow_ears_pressed"]
+[connection signal="pressed" from="TabContainer/Mouth-Menu/ScrollContainer/VBoxContainer/Mouths" to="." method="_on_mouths_pressed"]
+[connection signal="pressed" from="TabContainer/Mouth-Menu/ScrollContainer/VBoxContainer/Mouths 2" to="." method="_on_mouths_2_pressed"]
+[connection signal="pressed" from="TabContainer/Nose-Menu/ScrollContainer/VBoxContainer/Noses" to="." method="_on_noses_pressed"]
