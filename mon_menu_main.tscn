@@ -181,18 +181,6 @@
 [node name="MonMenu-Main" type="Node2D"]
 script = ExtResource("1_ryxmi")
 
-[node name="Return" type="Button" parent="."]
-offset_top = 334.0
-offset_right = 150.0
-offset_bottom = 384.0
-text = "Quit to Menu"
-
-[node name="Quit" type="Button" parent="."]
-offset_top = 394.0
-offset_right = 150.0
-offset_bottom = 444.0
-text = "Quit to Desktop"
-
 [node name="TabContainer" type="TabContainer" parent="."]
 custom_minimum_size = Vector2(150, 169)
 offset_right = 150.0
@@ -442,6 +430,18 @@ offset_right = 150.0
 offset_bottom = 323.0
 text = "Load From Gallary"
 
+[node name="Return" type="Button" parent="."]
+offset_top = 334.0
+offset_right = 150.0
+offset_bottom = 384.0
+text = "Quit to Menu"
+
+[node name="Quit" type="Button" parent="."]
+offset_top = 394.0
+offset_right = 150.0
+offset_bottom = 444.0
+text = "Quit to Desktop"
+
 [node name="BB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
@@ -546,40 +546,40 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="BG-1" type="Button" parent="GB-Con"]
+[node name="GB-1" type="Button" parent="GB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("14_1i465")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-2" type="Button" parent="GB-Con"]
+[node name="GB-2" type="Button" parent="GB-Con"]
 layout_mode = 2
 icon = ExtResource("15_ahrq1")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-3" type="Button" parent="GB-Con"]
+[node name="GB-3" type="Button" parent="GB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("16_hyif7")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-4" type="Button" parent="GB-Con"]
+[node name="GB-4" type="Button" parent="GB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("17_3a117")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-5" type="Button" parent="GB-Con"]
+[node name="GB-5" type="Button" parent="GB-Con"]
 layout_mode = 2
 icon = ExtResource("18_opxh4")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-6" type="Button" parent="GB-Con"]
+[node name="GB-6" type="Button" parent="GB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("19_j6j11")
@@ -594,47 +594,47 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="BG-1" type="Button" parent="RB-Con"]
+[node name="RB-1" type="Button" parent="RB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("14_r7erh")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-2" type="Button" parent="RB-Con"]
+[node name="RB-2" type="Button" parent="RB-Con"]
 layout_mode = 2
 icon = ExtResource("15_lq2o1")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-3" type="Button" parent="RB-Con"]
+[node name="RB-3" type="Button" parent="RB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("16_8mdql")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-4" type="Button" parent="RB-Con"]
+[node name="RB-4" type="Button" parent="RB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("17_mvpf0")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-5" type="Button" parent="RB-Con"]
+[node name="RB-5" type="Button" parent="RB-Con"]
 layout_mode = 2
 icon = ExtResource("18_rglee")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-6" type="Button" parent="RB-Con"]
+[node name="RB-6" type="Button" parent="RB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("19_6o83x")
 icon_alignment = 1
 expand_icon = true
 
-[node name="WB-Con" type="GridContainer" parent="."]
+[node name="WB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -642,47 +642,47 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="BG-1" type="Button" parent="WB-Con"]
+[node name="WB-1" type="Button" parent="WB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("26_7hsv8")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-2" type="Button" parent="WB-Con"]
+[node name="WB-2" type="Button" parent="WB-Con"]
 layout_mode = 2
 icon = ExtResource("27_ljlg2")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-3" type="Button" parent="WB-Con"]
+[node name="WB-3" type="Button" parent="WB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("28_h4gr5")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-4" type="Button" parent="WB-Con"]
+[node name="WB-4" type="Button" parent="WB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("29_ak8p5")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-5" type="Button" parent="WB-Con"]
+[node name="WB-5" type="Button" parent="WB-Con"]
 layout_mode = 2
 icon = ExtResource("30_s085k")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-6" type="Button" parent="WB-Con"]
+[node name="WB-6" type="Button" parent="WB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("31_83frk")
 icon_alignment = 1
 expand_icon = true
 
-[node name="YB-Con" type="GridContainer" parent="."]
+[node name="YB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -690,47 +690,47 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="BG-1" type="Button" parent="YB-Con"]
+[node name="YB-1" type="Button" parent="YB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("20_sevf0")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-2" type="Button" parent="YB-Con"]
+[node name="YB-2" type="Button" parent="YB-Con"]
 layout_mode = 2
 icon = ExtResource("21_rb26h")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-3" type="Button" parent="YB-Con"]
+[node name="YB-3" type="Button" parent="YB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("22_0pqk6")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-4" type="Button" parent="YB-Con"]
+[node name="YB-4" type="Button" parent="YB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("23_ocw5c")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-5" type="Button" parent="YB-Con"]
+[node name="YB-5" type="Button" parent="YB-Con"]
 layout_mode = 2
 icon = ExtResource("24_t2y4d")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BG-6" type="Button" parent="YB-Con"]
+[node name="YB-6" type="Button" parent="YB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("25_jc4no")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BA-Con" type="GridContainer" parent="."]
+[node name="BA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 custom_minimum_size = Vector2(100, 0)
 offset_left = 155.0
@@ -739,40 +739,40 @@ offset_right = 365.0
 offset_bottom = 584.0
 columns = 2
 
-[node name="Button" type="Button" parent="BA-Con"]
+[node name="BA-1" type="Button" parent="BA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("76_5f6t2")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="BA-Con"]
+[node name="BA-2" type="Button" parent="BA-Con"]
 layout_mode = 2
 icon = ExtResource("77_up34d")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="BA-Con"]
+[node name="BA-3" type="Button" parent="BA-Con"]
 layout_mode = 2
 icon = ExtResource("78_e8qwj")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="BA-Con"]
+[node name="BA-4" type="Button" parent="BA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("79_kf8di")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="BA-Con"]
+[node name="BA-5" type="Button" parent="BA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("80_heuaf")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BrA-Con" type="GridContainer" parent="."]
+[node name="BrA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -780,40 +780,40 @@ offset_right = 365.0
 offset_bottom = 584.0
 columns = 2
 
-[node name="Button" type="Button" parent="BrA-Con"]
+[node name="BrA-1" type="Button" parent="BrA-Con"]
 layout_mode = 2
 icon = ExtResource("81_jr42u")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="BrA-Con"]
+[node name="BrA-2" type="Button" parent="BrA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("82_bi20e")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="BrA-Con"]
+[node name="BrA-3" type="Button" parent="BrA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("83_u0vxi")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="BrA-Con"]
+[node name="BrA-4" type="Button" parent="BrA-Con"]
 layout_mode = 2
 icon = ExtResource("84_tn6rr")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="BrA-Con"]
+[node name="BrA-5" type="Button" parent="BrA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("85_1aw1v")
 icon_alignment = 1
 expand_icon = true
 
-[node name="GA-Con" type="GridContainer" parent="."]
+[node name="GA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -821,41 +821,41 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="Button" type="Button" parent="GA-Con"]
+[node name="GA-1" type="Button" parent="GA-Con"]
 layout_mode = 2
 icon = ExtResource("86_w8h4x")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="GA-Con"]
+[node name="GA-2" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("87_3jpnw")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="GA-Con"]
+[node name="GA-3" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("88_1b3ev")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="GA-Con"]
+[node name="GA-4" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 icon = ExtResource("89_vq3ng")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="GA-Con"]
+[node name="GA-5" type="Button" parent="GA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("90_b7eqo")
 icon_alignment = 1
 expand_icon = true
 
-[node name="RA-Con" type="GridContainer" parent="."]
+[node name="RA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -863,41 +863,41 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="Button" type="Button" parent="RA-Con"]
+[node name="RA-1" type="Button" parent="RA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("91_ab76p")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="RA-Con"]
+[node name="RA-2" type="Button" parent="RA-Con"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 icon = ExtResource("92_ncm48")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="RA-Con"]
+[node name="RA-3" type="Button" parent="RA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("93_sekew")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="RA-Con"]
+[node name="RA-4" type="Button" parent="RA-Con"]
 layout_mode = 2
 icon = ExtResource("94_kapca")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="RA-Con"]
+[node name="RA-5" type="Button" parent="RA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("95_pg0mr")
 icon_alignment = 1
 expand_icon = true
 
-[node name="WA-Con" type="GridContainer" parent="."]
+[node name="WA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -905,40 +905,40 @@ offset_right = 365.0
 offset_bottom = 584.0
 columns = 2
 
-[node name="Button" type="Button" parent="WA-Con"]
+[node name="WA-1" type="Button" parent="WA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("96_afp22")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="WA-Con"]
+[node name="WA-2" type="Button" parent="WA-Con"]
 layout_mode = 2
 icon = ExtResource("97_1hmvo")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="WA-Con"]
+[node name="WA-3" type="Button" parent="WA-Con"]
 layout_mode = 2
 icon = ExtResource("98_qoll3")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="WA-Con"]
+[node name="WA-4" type="Button" parent="WA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("99_7k7mo")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="WA-Con"]
+[node name="WA-5" type="Button" parent="WA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("100_sdue2")
 icon_alignment = 1
 expand_icon = true
 
-[node name="YA-Con" type="GridContainer" parent="."]
+[node name="YA-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -946,40 +946,40 @@ offset_right = 365.0
 offset_bottom = 584.0
 columns = 2
 
-[node name="Button" type="Button" parent="YA-Con"]
+[node name="YA-1" type="Button" parent="YA-Con"]
 layout_mode = 2
 icon = ExtResource("101_abjj1")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="YA-Con"]
+[node name="YA-2" type="Button" parent="YA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("102_2x7hn")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="YA-Con"]
+[node name="YA-3" type="Button" parent="YA-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("103_3bgar")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="YA-Con"]
+[node name="YA-4" type="Button" parent="YA-Con"]
 layout_mode = 2
 icon = ExtResource("104_x5ykm")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="YA-Con"]
+[node name="YA-5" type="Button" parent="YA-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("105_yl1sf")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BL-Con" type="GridContainer" parent="."]
+[node name="BL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -987,40 +987,40 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="BL-Con"]
+[node name="BL-1" type="Button" parent="BL-Con"]
 layout_mode = 2
 icon = ExtResource("106_5wwtw")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="BL-Con"]
+[node name="BL-2" type="Button" parent="BL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("107_ye6b3")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="BL-Con"]
+[node name="BL-3" type="Button" parent="BL-Con"]
 layout_mode = 2
 icon = ExtResource("108_mbbn8")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="BL-Con"]
+[node name="BL-4" type="Button" parent="BL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("109_jn7mi")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="BL-Con"]
+[node name="BL-5" type="Button" parent="BL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("110_eu5ro")
 icon_alignment = 1
 expand_icon = true
 
-[node name="BrL-Con" type="GridContainer" parent="."]
+[node name="BrL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1028,40 +1028,40 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="BrL-Con"]
+[node name="BrL-1" type="Button" parent="BrL-Con"]
 layout_mode = 2
 icon = ExtResource("111_ilgth")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="BrL-Con"]
+[node name="BrL-2" type="Button" parent="BrL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("112_dh6bn")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="BrL-Con"]
+[node name="BrL-3" type="Button" parent="BrL-Con"]
 layout_mode = 2
 icon = ExtResource("113_um8ou")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="BrL-Con"]
+[node name="BrL-4" type="Button" parent="BrL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("114_mmbj7")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="BrL-Con"]
+[node name="BrL-5" type="Button" parent="BrL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("115_lfcgq")
 icon_alignment = 1
 expand_icon = true
 
-[node name="GL-Con" type="GridContainer" parent="."]
+[node name="GL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1069,40 +1069,40 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="GL-Con"]
+[node name="GL-1" type="Button" parent="GL-Con"]
 layout_mode = 2
 icon = ExtResource("116_vqk25")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="GL-Con"]
+[node name="GL-2" type="Button" parent="GL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("117_kxynq")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="GL-Con"]
+[node name="GL-3" type="Button" parent="GL-Con"]
 layout_mode = 2
 icon = ExtResource("118_pv2he")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="GL-Con"]
+[node name="GL-4" type="Button" parent="GL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("119_o88iv")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="GL-Con"]
+[node name="GL-5" type="Button" parent="GL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("120_qdxw8")
 icon_alignment = 1
 expand_icon = true
 
-[node name="RL-Con" type="GridContainer" parent="."]
+[node name="RL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1110,40 +1110,40 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="RL-Con"]
+[node name="RL-1" type="Button" parent="RL-Con"]
 layout_mode = 2
 icon = ExtResource("121_pf47r")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="RL-Con"]
+[node name="RL-2" type="Button" parent="RL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("122_k6ncs")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="RL-Con"]
+[node name="RL-3" type="Button" parent="RL-Con"]
 layout_mode = 2
 icon = ExtResource("123_xijrr")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="RL-Con"]
+[node name="RL-4" type="Button" parent="RL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("124_ji0ed")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="RL-Con"]
+[node name="RL-5" type="Button" parent="RL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("125_b50sf")
 icon_alignment = 1
 expand_icon = true
 
-[node name="WL-Con" type="GridContainer" parent="."]
+[node name="WL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1151,40 +1151,40 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="WL-Con"]
+[node name="WL-1" type="Button" parent="WL-Con"]
 layout_mode = 2
 icon = ExtResource("126_221nf")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="WL-Con"]
+[node name="WL-2" type="Button" parent="WL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("127_5o1s5")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="WL-Con"]
+[node name="WL-3" type="Button" parent="WL-Con"]
 layout_mode = 2
 icon = ExtResource("128_yllmt")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="WL-Con"]
+[node name="WL-4" type="Button" parent="WL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("129_rpm86")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="WL-Con"]
+[node name="WL-5" type="Button" parent="WL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("130_mlltv")
 icon_alignment = 1
 expand_icon = true
 
-[node name="YL-Con" type="GridContainer" parent="."]
+[node name="YL-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1192,65 +1192,65 @@ offset_right = 359.0
 offset_bottom = 462.0
 columns = 2
 
-[node name="Button" type="Button" parent="YL-Con"]
+[node name="YL-1" type="Button" parent="YL-Con"]
 layout_mode = 2
 icon = ExtResource("131_8cf4u")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="YL-Con"]
+[node name="YL-2" type="Button" parent="YL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("132_141lm")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button3" type="Button" parent="YL-Con"]
+[node name="YL-3" type="Button" parent="YL-Con"]
 layout_mode = 2
 icon = ExtResource("133_igpeu")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button4" type="Button" parent="YL-Con"]
+[node name="YL-4" type="Button" parent="YL-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("134_hijdj")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button5" type="Button" parent="YL-Con"]
+[node name="YL-5" type="Button" parent="YL-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("135_6hg4r")
 icon_alignment = 1
 expand_icon = true
 
-[node name="EyeB-Con" type="GridContainer" parent="."]
+[node name="EyeB-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
 offset_right = 255.0
 offset_bottom = 338.0
 
-[node name="Button" type="Button" parent="EyeB-Con"]
+[node name="EyeB-1" type="Button" parent="EyeB-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("46_n6wpk")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="EyeB-Con"]
+[node name="EyeB-2" type="Button" parent="EyeB-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("47_afgma")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="EyeB-Con"]
+[node name="EyeB-3" type="Button" parent="EyeB-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("48_mfneq")
 icon_alignment = 1
 
-[node name="Eye-Con" type="GridContainer" parent="."]
+[node name="Eye-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1258,55 +1258,55 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="Eye-Con"]
+[node name="Eye-1" type="Button" parent="Eye-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("42_p8344")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="Eye-Con"]
+[node name="Eye-2" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("43_7jfd5")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="Eye-Con"]
+[node name="Eye-3" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("44_8c7n7")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="Eye-Con"]
+[node name="Eye-4" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("45_76ecy")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="Eye-Con"]
+[node name="Eye-5" type="Button" parent="Eye-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("46_giby2")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="Eye-Con"]
+[node name="Eye-6" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("47_y67r7")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="Eye-Con"]
+[node name="Eye-7" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("48_gwncf")
 icon_alignment = 1
 
-[node name="Button8" type="Button" parent="Eye-Con"]
+[node name="Eye-8" type="Button" parent="Eye-Con"]
 layout_mode = 2
 icon = ExtResource("49_4pdfp")
 icon_alignment = 1
 
-[node name="Button9" type="Button" parent="Eye-Con"]
+[node name="Eye-9" type="Button" parent="Eye-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("50_8kjmu")
 icon_alignment = 1
 
-[node name="Eye2-Con" type="GridContainer" parent="."]
+[node name="Eye2-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1314,29 +1314,29 @@ offset_right = 359.0
 offset_bottom = 234.0
 columns = 2
 
-[node name="Button" type="Button" parent="Eye2-Con"]
+[node name="Eye2-1" type="Button" parent="Eye2-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("51_3xsqh")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="Eye2-Con"]
+[node name="Eye2-2" type="Button" parent="Eye2-Con"]
 layout_mode = 2
 icon = ExtResource("52_8ie5m")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="Eye2-Con"]
+[node name="Eye2-3" type="Button" parent="Eye2-Con"]
 layout_mode = 2
 icon = ExtResource("53_0oaxu")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="Eye2-Con"]
+[node name="Eye2-4" type="Button" parent="Eye2-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("54_rheuc")
 icon_alignment = 1
 
-[node name="EyeC-Con" type="GridContainer" parent="."]
+[node name="EyeC-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1344,29 +1344,29 @@ offset_right = 359.0
 offset_bottom = 234.0
 columns = 2
 
-[node name="Button" type="Button" parent="EyeC-Con"]
+[node name="EyeC-1" type="Button" parent="EyeC-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("42_d02fg")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="EyeC-Con"]
+[node name="EyeC-2" type="Button" parent="EyeC-Con"]
 layout_mode = 2
 icon = ExtResource("43_hh6wb")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="EyeC-Con"]
+[node name="EyeC-3" type="Button" parent="EyeC-Con"]
 layout_mode = 2
 icon = ExtResource("44_te4d4")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="EyeC-Con"]
+[node name="EyeC-4" type="Button" parent="EyeC-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("45_i5sla")
 icon_alignment = 1
 
-[node name="BE-Con" type="GridContainer" parent="."]
+[node name="BE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1374,45 +1374,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="BE-Con"]
+[node name="BE-1" type="Button" parent="BE-Con"]
 layout_mode = 2
 icon = ExtResource("136_g13fw")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="BE-Con"]
+[node name="BE-2" type="Button" parent="BE-Con"]
 layout_mode = 2
 icon = ExtResource("137_12hso")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="BE-Con"]
+[node name="BE-3" type="Button" parent="BE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("138_pvccp")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="BE-Con"]
+[node name="BE-4" type="Button" parent="BE-Con"]
 layout_mode = 2
 icon = ExtResource("139_envj0")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="BE-Con"]
+[node name="BE-5" type="Button" parent="BE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("140_ccamm")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="BE-Con"]
+[node name="BE-6" type="Button" parent="BE-Con"]
 layout_mode = 2
 icon = ExtResource("141_y8llj")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="BE-Con"]
+[node name="BE-7" type="Button" parent="BE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("142_y0sq3")
 icon_alignment = 1
 
-[node name="BrE-Con" type="GridContainer" parent="."]
+[node name="BrE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1420,45 +1420,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="BrE-Con"]
+[node name="BrE-1" type="Button" parent="BrE-Con"]
 layout_mode = 2
 icon = ExtResource("143_rbdjk")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="BrE-Con"]
+[node name="BrE-2" type="Button" parent="BrE-Con"]
 layout_mode = 2
 icon = ExtResource("144_3h8tf")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="BrE-Con"]
+[node name="BrE-3" type="Button" parent="BrE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("145_4p6c0")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="BrE-Con"]
+[node name="BrE-4" type="Button" parent="BrE-Con"]
 layout_mode = 2
 icon = ExtResource("146_lbr1c")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="BrE-Con"]
+[node name="BrE-5" type="Button" parent="BrE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("147_3638y")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="BrE-Con"]
+[node name="BrE-6" type="Button" parent="BrE-Con"]
 layout_mode = 2
 icon = ExtResource("148_4fifj")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="BrE-Con"]
+[node name="BrE-7" type="Button" parent="BrE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("149_bop7e")
 icon_alignment = 1
 
-[node name="GE-Con" type="GridContainer" parent="."]
+[node name="GE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1466,45 +1466,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="GE-Con"]
+[node name="GE-1" type="Button" parent="GE-Con"]
 layout_mode = 2
 icon = ExtResource("150_scqpn")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="GE-Con"]
+[node name="GE-2" type="Button" parent="GE-Con"]
 layout_mode = 2
 icon = ExtResource("151_l6uqd")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="GE-Con"]
+[node name="GE-3" type="Button" parent="GE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("152_k7rd2")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="GE-Con"]
+[node name="GE-4" type="Button" parent="GE-Con"]
 layout_mode = 2
 icon = ExtResource("153_5bmqy")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="GE-Con"]
+[node name="GE-5" type="Button" parent="GE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("154_760yw")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="GE-Con"]
+[node name="GE-6" type="Button" parent="GE-Con"]
 layout_mode = 2
 icon = ExtResource("155_xhhlg")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="GE-Con"]
+[node name="GE-7" type="Button" parent="GE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("156_ihssa")
 icon_alignment = 1
 
-[node name="RE-Con" type="GridContainer" parent="."]
+[node name="RE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1512,45 +1512,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="RE-Con"]
+[node name="RE-1" type="Button" parent="RE-Con"]
 layout_mode = 2
 icon = ExtResource("157_gsd8h")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="RE-Con"]
+[node name="RE-2" type="Button" parent="RE-Con"]
 layout_mode = 2
 icon = ExtResource("158_5od0w")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="RE-Con"]
+[node name="RE-3" type="Button" parent="RE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("159_lw33v")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="RE-Con"]
+[node name="RE-4" type="Button" parent="RE-Con"]
 layout_mode = 2
 icon = ExtResource("160_oqee5")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="RE-Con"]
+[node name="RE-5" type="Button" parent="RE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("161_gto05")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="RE-Con"]
+[node name="RE-6" type="Button" parent="RE-Con"]
 layout_mode = 2
 icon = ExtResource("162_myvwf")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="RE-Con"]
+[node name="Re-7" type="Button" parent="RE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("163_3ku3n")
 icon_alignment = 1
 
-[node name="WE-Con" type="GridContainer" parent="."]
+[node name="WE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1558,45 +1558,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="WE-Con"]
+[node name="WE-1" type="Button" parent="WE-Con"]
 layout_mode = 2
 icon = ExtResource("164_cy6wh")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="WE-Con"]
+[node name="WE-2" type="Button" parent="WE-Con"]
 layout_mode = 2
 icon = ExtResource("165_4hycc")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="WE-Con"]
+[node name="WE-3" type="Button" parent="WE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("166_3uag7")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="WE-Con"]
+[node name="WE-4" type="Button" parent="WE-Con"]
 layout_mode = 2
 icon = ExtResource("167_mqk1v")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="WE-Con"]
+[node name="WE-5" type="Button" parent="WE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("168_k0i4a")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="WE-Con"]
+[node name="WE-6" type="Button" parent="WE-Con"]
 layout_mode = 2
 icon = ExtResource("169_rm4dm")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="WE-Con"]
+[node name="WE-7" type="Button" parent="WE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("170_yudf4")
 icon_alignment = 1
 
-[node name="YE-Con" type="GridContainer" parent="."]
+[node name="YE-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1604,45 +1604,45 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="YE-Con"]
+[node name="YE-1" type="Button" parent="YE-Con"]
 layout_mode = 2
 icon = ExtResource("171_aofns")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="YE-Con"]
+[node name="YE-2" type="Button" parent="YE-Con"]
 layout_mode = 2
 icon = ExtResource("172_kqqbj")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="YE-Con"]
+[node name="YE-3" type="Button" parent="YE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("173_xpoup")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="YE-Con"]
+[node name="YE-4" type="Button" parent="YE-Con"]
 layout_mode = 2
 icon = ExtResource("174_cmajx")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="YE-Con"]
+[node name="YE-5" type="Button" parent="YE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("175_w8n0n")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="YE-Con"]
+[node name="YE-6" type="Button" parent="YE-Con"]
 layout_mode = 2
 icon = ExtResource("176_cgfwe")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="YE-Con"]
+[node name="YE-7" type="Button" parent="YE-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("177_mw2cx")
 icon_alignment = 1
 
-[node name="M-Con" type="GridContainer" parent="."]
+[node name="M-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1650,56 +1650,56 @@ offset_right = 463.0
 offset_bottom = 338.0
 columns = 3
 
-[node name="Button" type="Button" parent="M-Con"]
+[node name="M-1" type="Button" parent="M-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("42_y8dnd")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="M-Con"]
+[node name="M-2" type="Button" parent="M-Con"]
 layout_mode = 2
 icon = ExtResource("43_rdl4i")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="M-Con"]
+[node name="M-3" type="Button" parent="M-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("44_to8g7")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="M-Con"]
+[node name="M-4" type="Button" parent="M-Con"]
 layout_mode = 2
 icon = ExtResource("45_bpbum")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="M-Con"]
+[node name="M-5" type="Button" parent="M-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("46_ivhjw")
 icon_alignment = 1
 
-[node name="Button6" type="Button" parent="M-Con"]
+[node name="M-6" type="Button" parent="M-Con"]
 layout_mode = 2
 icon = ExtResource("47_6xkoy")
 icon_alignment = 1
 
-[node name="Button7" type="Button" parent="M-Con"]
+[node name="M-7" type="Button" parent="M-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("48_c6aff")
 icon_alignment = 1
 
-[node name="Button8" type="Button" parent="M-Con"]
+[node name="M-8" type="Button" parent="M-Con"]
 layout_mode = 2
 icon = ExtResource("49_h5eyf")
 icon_alignment = 1
 
-[node name="Button9" type="Button" parent="M-Con"]
+[node name="M-9" type="Button" parent="M-Con"]
 layout_mode = 2
 icon = ExtResource("50_k7uqs")
 icon_alignment = 1
 
-[node name="M2-Con" type="GridContainer" parent="."]
+[node name="M2-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
@@ -1707,69 +1707,67 @@ offset_right = 359.0
 offset_bottom = 338.0
 columns = 2
 
-[node name="Button" type="Button" parent="M2-Con"]
+[node name="M2-1" type="Button" parent="M2-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("51_56hhr")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="M2-Con"]
+[node name="M2-2" type="Button" parent="M2-Con"]
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 2
 icon = ExtResource("52_j7qln")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="M2-Con"]
+[node name="M2-3" type="Button" parent="M2-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("53_ivsht")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="M2-Con"]
+[node name="M2-4" type="Button" parent="M2-Con"]
 layout_mode = 2
 icon = ExtResource("54_o50wx")
 icon_alignment = 1
 
-[node name="Button5" type="Button" parent="M2-Con"]
+[node name="M2-5" type="Button" parent="M2-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("55_0bji7")
 icon_alignment = 1
 
-[node name="N-Con" type="GridContainer" parent="."]
+[node name="N-Con" type="GridContainer" parent="." groups=["Bodypart-Containers"]]
 visible = false
 offset_left = 155.0
 offset_top = 30.0
-offset_right = 217.0
+offset_right = 359.0
 offset_bottom = 270.0
 columns = 2
 
-[node name="Button" type="Button" parent="N-Con"]
+[node name="N-1" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("38_3vbvf")
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="N-Con"]
+[node name="N-2" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("39_u0rjd")
 icon_alignment = 1
 
-[node name="Button3" type="Button" parent="N-Con"]
+[node name="N-3" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 icon = ExtResource("40_w76wr")
 icon_alignment = 1
 
-[node name="Button4" type="Button" parent="N-Con"]
+[node name="N-4" type="Button" parent="N-Con"]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 2
 icon = ExtResource("41_krj4r")
 icon_alignment = 1
 
-[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
-[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Blue Bodies" to="." method="_on_blue_bodies_pressed"]
 [connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Brown Bodies" to="." method="_on_brown_bodies_pressed"]
 [connection signal="pressed" from="TabContainer/Body-Menu/ScrollContainer/VBoxContainer/Green Bodies" to="." method="_on_green_bodies_pressed"]
@@ -1801,3 +1799,8 @@ icon_alignment = 1
 [connection signal="pressed" from="TabContainer/Mouth-Menu/ScrollContainer/VBoxContainer/Mouths" to="." method="_on_mouths_pressed"]
 [connection signal="pressed" from="TabContainer/Mouth-Menu/ScrollContainer/VBoxContainer/Mouths 2" to="." method="_on_mouths_2_pressed"]
 [connection signal="pressed" from="TabContainer/Nose-Menu/ScrollContainer/VBoxContainer/Noses" to="." method="_on_noses_pressed"]
+[connection signal="pressed" from="Save" to="." method="_on_save_pressed"]
+[connection signal="pressed" from="Load" to="." method="_on_load_pressed"]
+[connection signal="pressed" from="Return" to="." method="_on_return_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="BB-Con/BB-1" to="." method="_on_bb_1_pressed"]
